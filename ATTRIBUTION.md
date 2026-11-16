@@ -31,8 +31,8 @@ Conformément aux directives de l'atelier, l'usage de l'IA (ChatGPT, Claude, Git
 
 | Composant / Phase | IA utilisée (Nom/Version) | Pourcentage estimé de contenu généré | Rôle précis de l'IA & Prompts clés utilisés |
 | :--- | :--- | :--- | :--- |
-| **Phase 1 : Exigences (SRE)** | [Claude 5.5 Sonnet] | [70%] | *Compréhesion des termes clés du projet, avoir des exemples d'idée pour la steganographie,watermarking et le fingerprinting pour comprendre profondement et se fixer sur une idée qui combine les 3 piliers + géneration de la structure des documents pour les modifier selon notre idée et l'adapter à ce qu'on pense."* |
-| **Phase 2 : Threat Modelling** | [Aucun] | [0%] | *à completer à la phase suivante* |
+| **Phase 1 : Exigences (SRE)** | [Claude 5.5 Sonnet] | [70%] | *Compréhension des termes clés du projet, avoir des exemples d'idée pour la steganographie,watermarking et le fingerprinting pour comprendre profondement et se fixer sur une idée qui combine les 3 piliers + géneration de la structure des documents pour les modifier selon notre idée et l'adapter à ce qu'on pense."* |
+| **Phase 2 : Amélioration des cahiers de charge et du recueil des besoins + version1 cahier conceptuel** | [Claude 5.5 Sonnet] | [75%] | *developper les fonctionalités de l'application, algorithmes adéquats et les fonctionalités correspondantes * |
 | **Développement Backend** | [Aucun] | [0%] | *à completer * |
 | **Moteur de Dissimulation** | [Aucun]| [0%] | *à completer* |
 
