@@ -1,0 +1,7 @@
+# Configuration TLS 1.3 pour le développement (certificat mkcert, mot de passe de dev uniquement).
+# En production : mot de passe dans le credential store Elytron (SEC-CRYP-02).
+/subsystem=elytron/key-store=httpsKS:add(path=traceit.p12,relative-to=jboss.server.config.dir,credential-reference={clear-text=changeit},type=PKCS12)
+/subsystem=elytron/key-manager=httpsKM:add(key-store=httpsKS,credential-reference={clear-text=changeit})
+/subsystem=elytron/server-ssl-context=httpsSSC:add(key-manager=httpsKM,protocols=[TLSv1.3])
+/subsystem=undertow/server=default-server/https-listener=https:write-attribute(name=ssl-context,value=httpsSSC)
+reload
